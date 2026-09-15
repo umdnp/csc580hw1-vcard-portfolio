@@ -61,9 +61,6 @@ Bachelor of Science in Computer Science
 
 ## CORE COMPETENCIES
 
-**Healthcare & Compliance**  
-HL7, C-CDA, HEDIS, NCQA, HIPAA, HITRUST CSF, GDPR, SOX
-
 **Architecture**  
 Cloud-Native, Data Architecture, Microservices, SOA, API-First, Event-Driven Architecture
 
@@ -71,10 +68,10 @@ Cloud-Native, Data Architecture, Microservices, SOA, API-First, Event-Driven Arc
 AWS, GCP, OCI
 
 **Data Engineering**  
-Apache Airflow, Apache Spark, PySpark, Amazon EMR, ETL/ELT, Data Modeling, Data Governance
+Apache Airflow, Spark, PySpark, Amazon EMR, ETL/ELT, Data Modeling, Governance
 
 **Data Platforms**  
-Databricks, Delta Lake, Apache Iceberg, Amazon Redshift, Snowflake, PostgreSQL, Oracle Database, MongoDB
+Databricks, Delta Lake, Iceberg, Redshift, Snowflake, PostgreSQL, Oracle, MongoDB
 
 **Containers & Orchestration**  
 Docker, Kubernetes, Helm, Amazon ECS/EKS, Fargate
@@ -86,13 +83,16 @@ Apache Kafka, Amazon MSK/Kinesis/SQS/SNS, OCI Streaming, RabbitMQ
 Terraform, Ansible, Jenkins, AWS CodeBuild/CodePipeline, OCI DevOps
 
 **Security**  
-AWS IAM, KMS, Secrets Manager, Okta, Keycloak, SSO, OAuth 2.0, OIDC, SAML 2.0
+AWS IAM, KMS, Secrets, Okta, Keycloak, OAuth 2.0, OIDC, SAML 2.0, Federated SSO
 
 **Programming Languages**  
-Python, Java, SQL, Scala, Kotlin, TypeScript, JavaScript, C#, Bash/Shell
+Python, Java, Scala, Kotlin, C#, TypeScript, JavaScript, SQL, Bash/Shell
 
 **Web & Mobile**  
 React, Angular, Spring Boot, Node.js, React Native, Android, Jetpack Compose
 
 **Tools & Frameworks**  
 Git, GitHub, GitLab, OpenAPI/Swagger, Jupyter, Pandas, NumPy, Selenium, JUnit, TestNG
+
+**Healthcare & Compliance**  
+HL7, C-CDA, HEDIS, NCQA, HIPAA, HITRUST CSF, GDPR, SOX
