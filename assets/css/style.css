@@ -516,6 +516,35 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+.sector-experience {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.sector-item {
+  padding: 15px;
+  background: var(--bg-gradient-jet);
+  border-radius: 5px;
+  border-left: 3px solid var(--orange-yellow-crayola);
+}
+
+.sector-title {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-600);
+  margin-bottom: 8px;
+}
+
+.sector-companies {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.5;
+  margin: 0;
+}
+
 
 
 /**
@@ -1652,6 +1681,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .modal-avatar-box img { width: 80px; }
+
+  .sector-experience {
+    grid-template-columns: 1fr 1fr;
+  }
 
 
 
