@@ -334,6 +334,15 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.avatar-box img {
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .info-content .name {
@@ -435,30 +444,12 @@ main {
 
 .contact-info address { font-style: normal; }
 
-.social-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 15px;
-  padding-bottom: 4px;
-  padding-left: 7px;
+.linkedin-link {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-
-.social-item .social-link {
-  color: var(--light-gray-70);
-  font-size: 18px;
-  min-width: 44px;
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  transition: color var(--transition-1);
-}
-
-.social-item .social-link:hover { color: var(--light-gray); }
-
-.social-item .social-link:focus { outline: 2px solid var(--orange-yellow-crayola); }
 
 
 
@@ -885,6 +876,53 @@ main {
   background: var(--text-gradient-yellow);
   height: 100%;
   border-radius: inherit;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skill-category {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skill-category-title {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  display: inline-block;
+  background: var(--jet);
+  color: var(--light-gray);
+  padding: 8px 14px;
+  border: 1px solid var(--onyx);
+  border-radius: 20px;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-400);
+  transition: all var(--transition-1);
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background: var(--onyx);
+  color: var(--orange-yellow-crayola);
+  border-color: var(--orange-yellow-crayola);
+  transform: translateY(-2px);
 }
 
 
